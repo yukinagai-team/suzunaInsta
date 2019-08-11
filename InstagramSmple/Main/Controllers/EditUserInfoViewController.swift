@@ -125,6 +125,7 @@ class EditUserInfoViewController: UIViewController,UITextFieldDelegate, UITextVi
         actionController.addAction(cameraAction)
         actionController.addAction(albumAction)
         actionController.addAction(cancelAction)
+        self.present(actionController, animated: true, completion: nil)
     }
     
 
